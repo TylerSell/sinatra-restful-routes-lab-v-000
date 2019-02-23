@@ -32,8 +32,12 @@ class ApplicationController < Sinatra::Base
     erb :edit 
   end
   
-  patch '' do 
+  patch '/' do 
   
+  end
+  
+  delete '' do
+    
   end
 
 end
