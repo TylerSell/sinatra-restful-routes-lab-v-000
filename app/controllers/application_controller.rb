@@ -32,11 +32,11 @@ class ApplicationController < Sinatra::Base
     erb :edit 
   end
   
-  patch '/' do 
-  
+  patch '/recipes/:id' do 
+    
   end
   
-  delete '' do
+  delete 'recipes/:id/delete' do
     
   end
 
