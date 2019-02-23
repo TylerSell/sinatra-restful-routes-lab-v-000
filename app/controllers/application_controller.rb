@@ -17,11 +17,11 @@ class ApplicationController < Sinatra::Base
     erb :new 
   end
   
-  get '/show/:id' do 
+  get '/recipes/:id' do 
     erb :show
   end
   
-  get '/show/:id/edit' do
+  get '/recipes/:id/edit' do
     erb :edit 
   end
 
